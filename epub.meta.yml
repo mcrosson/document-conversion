@@ -1,0 +1,15 @@
+---
+cover-image: input/my_file.md.png
+title:
+- type: main
+  text: My Book
+- type: subtitle
+  text: An example of metadata
+creator:
+- role: author
+  text: KemoNine
+- role: editor
+  text: KemoNine
+publisher: Self Published
+rights: © 2024 KemoNine, CC BY-NC
+---

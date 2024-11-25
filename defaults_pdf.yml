@@ -1,0 +1,9 @@
+pdf-engine: xelatex
+
+variables: 
+  papersize: letter
+  margin-left: .5in
+  margin-right: .5in
+  margin-top: .5in
+  margin-bottom: .5in
+  fontsize: 10pt
