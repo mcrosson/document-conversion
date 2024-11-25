@@ -114,7 +114,7 @@ It is assumed you will move files out of this directory once conversion is compl
 
 ### Included fonts
 
-Both [Askinson Hyperlegible](https://www.brailleinstitute.org/freefont/] and [Deja Vu](https://dejavu-fonts.github.io/) fonts are included and used by this project. They are free fonts with licensing independent of the rest of this repo.
+Both [Askinson Hyperlegible](https://www.brailleinstitute.org/freefont/) and [Deja Vu](https://dejavu-fonts.github.io/) fonts are included and used by this project. They are free fonts with licensing independent of the rest of this repo.
 
 ### This project
 
