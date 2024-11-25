@@ -1,0 +1,11 @@
+missfont.log
+authorship.yml
+attic/*
+!attic
+!attic/.gitkeep
+input/*
+!input
+!input/.gitkeep
+output/*
+!output
+!output/.gitkeep
