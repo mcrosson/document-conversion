@@ -1,0 +1,14 @@
+attic/
+input/
+output/
+.git*
+*.changeme
+*.css
+*.docx
+*.lua
+*.md
+*.odt
+*.ps1
+*.sh
+*.yml
+LICENSE

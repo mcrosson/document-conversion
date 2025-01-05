@@ -13,6 +13,8 @@ However, this project *does* include two important "hooks" to allow users to cus
 
 You will need a working installation of pandoc that has lua support and a LaTeX environment that has xetex to use this project.
 
+You can also use Docker to run this project. See the `run.ps1` and `build.ps1` scripts for more information.
+
 ## Supported file formats
 
 ### Input formats
