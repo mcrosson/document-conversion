@@ -3,15 +3,22 @@ FROM alpine:latest
 # fonts for "standard tex tooling"
 # Atkinson Hyperlegible font for std 'tex stuff'
 WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-Hyperlegible/
-COPY fonts/Atkinson-Hyperlegible* /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-Hyperlegible/
+COPY fonts/Atkinson-Hyperlegible-* /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-Hyperlegible/
+# Atkinson Hyperlegible Next font for std 'tex stuff'
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-HyperlegibleNext/
+COPY fonts/AtkinsonHyperlegibleNext-* /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-HyperlegibleNext/
+# Atkinson Hyperlegible font for std 'tex stuff'
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-HyperlegibleMono/
+COPY fonts/AtkinsonHyperlegibleMono-* /usr/local/texlive/texmf/local/fonts/opentype/Atkinson-HyperlegibleMono/
 # DejaVu Sans Mono font for std 'tex stuff'
 WORKDIR /usr/local/texlive/texmf/local/fonts/truetype/DejaVuSans/
 COPY fonts/DejaVuSans* /usr/local/texlive/texmf/local/fonts/truetype/DejaVuSans/
 
 # fonts for xetex
 WORKDIR /root/.fonts
-# Atkinson Hyperlegible font for xetex
+# Atkinson Hyperlegible fonts for xetex
 COPY fonts/Atkinson-Hyperlegible* /root/.fonts
+COPY fonts/AtkinsonHyperlegible* /root/.fonts
 # DejaVu Sans Mono font for xetex
 COPY fonts/DejaVuSans* /root/.fonts
 

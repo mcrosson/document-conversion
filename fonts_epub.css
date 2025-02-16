@@ -1,29 +1,29 @@
 @font-face {
-    font-family: Atkinson-Hyperlegible;
+    font-family: AtkinsonHyperlegibleNext;
     font-style: normal;
     font-weight: normal;
-    src:url("../fonts/Atkinson-Hyperlegible-Regular-102.otf");
+    src:url("../fonts/AtkinsonHyperlegibleNext-Regular.otf");
 }
 @font-face {
-    font-family: Atkinson-Hyperlegible;
+    font-family: AtkinsonHyperlegibleNext;
     font-style: normal;
     font-weight: bold;
-    src:url("../fonts/Atkinson-Hyperlegible-Bold-102.otf");
+    src:url("../fonts/AtkinsonHyperlegibleNext-Bold.otf");
 }
 @font-face {
-    font-family: Atkinson-Hyperlegible;
+    font-family: AtkinsonHyperlegibleNext;
     font-style: italic;
     font-weight: normal;
-    src:url("../fonts/Atkinson-Hyperlegible-Italic-102.otf");
+    src:url("../fonts/AtkinsonHyperlegibleNext-Italic.otf");
 }
 @font-face {
-    font-family: Atkinson-Hyperlegible;
+    font-family: AAtkinsonHyperlegibleNext;
     font-style: italic;
     font-weight: bold;
-    src:url("../fonts/Atkinson-Hyperlegible-BoldItalic-102.otf");
+    src:url("../fonts/AtkinsonHyperlegibleNext-BoldItalic.otf");
 }
-html, body { font-family: "Atkinson-Hyperlegible", serif; }
+html, body { font-family: "AtkinsonHyperlegibleNext", serif; }
 
 code {
-    font-family: "../fonts/DejaVuSansMono.ttf", monospace;
+    font-family: "../fonts/AtkinsonHyperlegibleMono-Regular.otf", monospace;
 }

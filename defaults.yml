@@ -2,8 +2,8 @@ toc: true
 variables: 
   colorlinks: true
   linkcolor: blue
-  monofont: DejaVuSansMono
-  mainfont: AtkinsonHyperlegible-Regular
-  mainfontoptions: BoldFont=AtkinsonHyperlegible-Bold
-  mainfontoptions: ItalicFont=AtkinsonHyperlegible-Italic
-  mainfontoptions: BoldItalicFont=AtkinsonHyperlegible-BoldItalic
+  monofont: AtkinsonHyperlegibleMono-Regular
+  mainfont: AtkinsonHyperlegibleNext-Regular
+  mainfontoptions: BoldFont=AtkinsonHyperlegibleNext-Bold
+  mainfontoptions: ItalicFont=AtkinsonHyperlegibleNext-Italic
+  mainfontoptions: BoldItalicFont=AtkinsonHyperlegibleNext-BoldItalic
