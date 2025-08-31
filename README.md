@@ -118,6 +118,8 @@ It is assumed you will move files out of this directory once conversion is compl
 
 Both [Askinson Hyperlegible](https://www.brailleinstitute.org/freefont/) and [Deja Vu](https://dejavu-fonts.github.io/) fonts are included and used by this project. They are free fonts with licensing independent of the rest of this repo.
 
+[Monaspace](https://monaspace.githubnext.com) (all forms of the NerdFont release) is a modern Monospaced font that's been included for those who wish to use a very modern monospaced font.
+
 ### This project
 
 This project is licensed under the [Apache 2.0 License](LICENSE).

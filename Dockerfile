@@ -13,6 +13,21 @@ COPY fonts/AtkinsonHyperlegibleMono-* /usr/local/texlive/texmf/local/fonts/opent
 # DejaVu Sans Mono font for std 'tex stuff'
 WORKDIR /usr/local/texlive/texmf/local/fonts/truetype/DejaVuSans/
 COPY fonts/DejaVuSans* /usr/local/texlive/texmf/local/fonts/truetype/DejaVuSans/
+# Monaspace Argon
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceArgon/
+COPY fonts/Monaspace/Argon/* /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceArgon/
+# Monaspace Krypton
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceKrypton/
+COPY fonts/Monaspace/Krypton/* /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceKrypton/
+# Monaspace Neon
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceNeon/
+COPY fonts/Monaspace/Neon/* /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceNeon/
+# Monaspace Radon
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceRadon/
+COPY fonts/Monaspace/Radon/* /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceRadon/
+# Monaspace Xenon
+WORKDIR /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceXenon/
+COPY fonts/Monaspace/Xenon/* /usr/local/texlive/texmf/local/fonts/opentype/MonaspaceXenon/
 
 # fonts for xetex
 WORKDIR /root/.fonts
@@ -21,6 +36,8 @@ COPY fonts/Atkinson-Hyperlegible* /root/.fonts
 COPY fonts/AtkinsonHyperlegible* /root/.fonts
 # DejaVu Sans Mono font for xetex
 COPY fonts/DejaVuSans* /root/.fonts
+# Monaspace fonts for xetex
+COPY fonts/Monaspace/*/* /root/.fonts
 
 # Actual working directory
 WORKDIR /opt/document-conversion
